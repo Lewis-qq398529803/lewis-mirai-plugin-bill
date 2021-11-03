@@ -257,7 +257,7 @@ public final class PluginMain extends JavaPlugin {
 
 		addCommand(event, autoReplyAddUrl);
 
-		// 获取消息文本 - 去除空格
+		// 获取消息文本
 		String msg = event.getMessage().serializeToMiraiCode();
 
 		// 根据指令调用指定url
